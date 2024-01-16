@@ -1,0 +1,16 @@
+/* HEADER AND NAV */
+.header {
+    position: fixed;
+    top: 0;
+    background-color: 1D5D9B;
+    padding: 0 80px 0 80px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+  }
+  .logo {
+    
+  }
+  
