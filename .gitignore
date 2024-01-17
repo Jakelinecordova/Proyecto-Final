@@ -1,0 +1,28 @@
+# Node.js
+node_modules/
+
+# Archivos de configuración
+config.js
+
+# Archivos generados durante el desarrollo
+dist/
+*.log
+*.bak
+
+# Archivos de respaldo
+*.bak
+*.backup
+
+# Archivos temporales
+*.tmp
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Dependencias de desarrollo generadas
+package-lock.json
+
+# Archivos de usuario (cambiar según tus preferencias)
+.vscode/
+.idea/
