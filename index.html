@@ -1,35 +1,103 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OLE</title>
     <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
 </head>
 
 <body>
-    <!-- HEADER -->
-    <header class="header">
-        <img src="imágenes/logo.png" alt="">
-        <nav>
-            <li class="categorias">
-                <a href="#">Categorias></a>
-                <!-- Menú desplegable del segundo nivel -->
-                <ul class="submenu">
-                    <li><a href="#">Talleres</a></li>
-                    <li><a href="#">Escapadas</a></li>
-                    <li><a href="#">Educando</a></li>
-            </li>
-            <li class="fecha">
-                <a href="#">Fechas></a>
-                <!-- Menú desplegable del segundo nivel -->
+    <!-- NAVBAR -->
+    <div class="header">
+        <div class="logo">
+            <img src="image/logo.png" alt="">
+        </div>
+
+        <div class="menu_bar">
+            <a href="#" class="bt-menu" id="mobile-menu"><span class="icon-list2"></span>Menú</a>
+        </div>
+        <ul class="nav">
+            <li><a href="">Categorias</a>
+                <ul id="listaCategoria">
+                    <li><a href="">Danza</a></li>
+                </ul>
 
             </li>
-        </nav>
+            <li><a href="">Fechas</a></li>
+            <li class="inicio-sesion"><a href="">Iniciar sesión</a></li>
+            <li class="registrarse"><a href="">Registrarse</a></li>
+
+        </ul>
+    </div>
+
+    <div class="search">
+        <div class="input-search">
+            <input type="text" placeholder="Search" id="searchImput">
+        </div>
+
+        <div class="input-button">
+            <button>Search</button>
+        </div>
+
+    </div>
+
+    <div class="carrusel-container">
+        <div class="carrusel">
+
+            <div class="slide">
+                <img src="image/imagenportada1.jpg" alt="">
+                <div class="texto">
+                    <h3>Escapadas</h3>
+
+                    <p>Súmate a nuestras aventuras.</p>
+
+                </div>
+
+            </div>
+            <div class="slide">
+                <img src="image/imagenportada2.jpg" alt="">
+                <div class="texto">
+                    <h3>Conectar</h3>
+                    <p>Establecer contacto hace la vida mucho más hermosa.</p>
+                </div>
+            </div>
+
+            <div class="slide">
+                <img src="image/imagenportada3.jpg" alt="">
+                <div class="texto">
+                    <h3>Educando</h3>
+                    <p>Una crianza feliz.</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- TEXTO CENTRAL -->
+    <div class="texto-central">
+        <p>
+            <span class="color-red">Eventos que nos hacen</span>
+            <span class="color-amarillo">más fácil</span>
+            <span class="color-red">el camino a </span> <br>
+            <span class="color-amarillo">familias</span>
+            <span class="color-red">como la nuestra.</span>
+        </p>
+    </div>
 
 
-        <script src="eventos.js"></script>
+    <!-- CARDS -->
+    <div class="container-cards" id="eventos-container">
+
+    </div>
+
+    <br><br><br><br>
+
+    <script src="cards.js"></script>
+    <script src="menu.js"></script>
+    <script src="carrusel.js"></script>
+
+    <script src="script.js"></script>
 </body>
 
 </html>

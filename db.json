@@ -1,55 +1,63 @@
 {
+  "eventos": [
+    {
+      "id": "1",
+      "clase": "Terapia de arte familiar",
+      "fecha": "17 de febrero de 2024",
+      "description": "Una propuesta que destaca la comunicación corporal, el juego y la creación",
+      "image": "image/imagenTarjeta1.jpg",
+      "categoria": "taller"
+      
+    },
+    {
+      "id": "2",
+      "clase": "Escapadas",
+      "fecha": "Agosto 2024",
+      "description": "Súmate a nuestras aventuras y comparte además la magia de viajar con otras personas afines a ti",
+      "image": "image/imagenTarjeta2.jpg",
+      "categoria":"escapadas"
+    },
+    {
+      "id": "3",
+      "clase": "Cómo acompañar y sostener las emociones de los infantes",
+      "fecha": "17 de febrero de 2024",
+      "description": "Sabemos que puede ser un momento difícil, pero aquí te decimos como podrás tranquilizar la situación",
+      "image": "image/imagenTarjeta3.jpg",
+      "categoria":"educando"
+    },
+    {
+      "id": "4",
+      "clase": "Danza en familia",
+      "fecha": "27 de febrero de 2024",
+      "description": "Una propuesta que destaca la comunicación corporal, el juego y la creación",
+      "image": "image/imagenTarjeta4.jpg",
+      "categoria": "Danza"
+    },
+    {
+      "id": "5",
+      "clase": "Mi familia es especial",
+      "fecha": "17 de febrero de 2024",
+      "description": "Cuentos para visibilizar la diversidad familiar desde la infancia",
+      "image": "image/imagenTarjeta5.jpg",
+      "categoria": "cuentos"
+    },
+    {
+      "id": "6",
+      "clase": "Explorando la naturaleza",
+      "fecha": "3 de marzo de 2024",
+      "description": "Conectar con la naturaleza nos fortalece y nos hace más feliz",
+      "image": "image/imagenTarjeta6.jpg",
+      "categoria": "escapadas"
+    },
+    {
+      "id": "7",
+      "clase": "Cómo afectan los dispositivos móviles a los infantes",
+      "fecha": "3 de marzo de 2024",
+      "description": "Nuestros ponentes especialistas en el tema nos presentaran una guía para padres y educadores",
+      "image": "image/imagenTarjeta7.jpg",
+      "categoria": "educando"
+    }
+  ]
+}
 
-    "eventos": [
-  
-      {
-  
-        "id": 1,
-  
-        "name": "Producto 1",
-  
-        "description": "soy el producto 1",
-  
-        "image": "src/assets/img/screenshot-1.jpg"
-  
-      },
-  
-      {
-  
-        "id": 2,
-  
-        "name": "Producto 2",
-  
-        "description": "soy el producto 2",
-  
-        "image": "src/assets/img/screenshot-1.jpg"
-  
-      },
-  
-      {
-  
-        "id": 3,
-  
-        "name": "Producto 3",
-  
-        "description": "soy el producto 3",
-  
-        "image": "src/assets/img/screenshot-1.jpg"
-  
-      },
-  
-      {
-  
-        "id": 4,
-  
-        "name": "Producto 4",
-  
-        "description": "soy el producto 4",
-  
-        "image": "src/assets/img/screenshot-1.jpg"
-  
-      }
-  
-    ]
-  
-  }
+ 
