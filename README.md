@@ -13,4 +13,14 @@ Este proyecto consiste en diseñar un espacio para conectar, inspirar y empodera
   - Trello
   - Github
   - json-server
+    ## Comando de instalación
+    Install json server JS vanilla ( node instalado)
+    - npm init -y
+    - npm install -g json-server (para los de mac: sudo npm install -g json-server)
+    - json-server --watch db.json
+    - crear npm start para json server:
+    -dentro del archivo package.json, dentro de scripts:
+    - "start": "json-server --watch db.json"
+
+
     
