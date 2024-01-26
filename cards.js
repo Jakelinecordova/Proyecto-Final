@@ -21,7 +21,7 @@ fetch("http://localhost:3000/eventos")
             <h3>${evento.clase} </h3>
             <p> ${evento.description} </p>
             <p> ${evento.fecha} </p>
-            <a href=""> Descubre más... </a>
+            <button href=""> Descubre más... </button>
         `;
             eventosContainer.appendChild(card);
         });
