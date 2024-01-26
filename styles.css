@@ -192,7 +192,7 @@ ol {
 /* CARRUSEL */
 .carrusel-container {
   width: 100%;
-  height: 100vh;
+  height: 50vh;
   /* 100% de la altura de la ventana */
   display: flex;
   overflow: hidden;
@@ -212,7 +212,7 @@ ol {
 .slide img {
   position: relative;
   width: 100%;
-  height: 100%;
+  height: 50vh;
   object-fit: cover;
   /* Para asegurar que la imagen ocupe toda la caja manteniendo su relación de aspecto */
 }
@@ -311,8 +311,9 @@ ol {
   margin-top: 10px;
 }
 
-.cards p {
-  margin: 20px;
+.cards p{
+margin: 20px;
+
 }
 
 .cards button {
