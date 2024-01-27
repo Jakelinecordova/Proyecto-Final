@@ -4,24 +4,24 @@
       "id": "1",
       "clase": "Terapia de arte familiar",
       "fecha": "17 de febrero de 2024",
-      "description": "Una propuesta que destaca la comunicación corporal, el juego y la creación",
+      "description": "Comunicación, el juego y la creación",
       "image": "image/imagenTarjeta1.jpg",
       "categoria": "taller"
       
     },
     {
       "id": "2",
-      "clase": "Escapadas de verano al Perú",
+      "clase": "Escapadas al Perú",
       "fecha": "Agosto 2024",
-      "description": "Súmate a nuestras aventuras y comparte además la magia de viajar con otras personas afines a ti",
+      "description": "Súmate a nuestras aventuras",
       "image": "image/imagenTarjeta2.jpg",
       "categoria":"escapadas"
     },
     {
       "id": "3",
-      "clase": "Cómo acompañar y sostener las emociones de los infantes",
+      "clase": "Emociones de los infantes",
       "fecha": "17 de febrero de 2024",
-      "description": "Sabemos que puede ser un momento difícil, pero aquí te decimos como podrás tranquilizar la situación",
+      "description": "Te decimos como tranquilizar la situación",
       "image": "image/imagenTarjeta3.jpg",
       "categoria":"educando"
     },
@@ -29,7 +29,7 @@
       "id": "4",
       "clase": "Danza en familia",
       "fecha": "27 de febrero de 2024",
-      "description": "Una propuesta que destaca la comunicación corporal, el juego y la creación",
+      "description": "La comunicación corporal, el juego y la creación",
       "image": "image/imagenTarjeta4.jpg",
       "categoria": "Danza"
     },
@@ -51,9 +51,9 @@
     },
     {
       "id": "7",
-      "clase": "Cómo afectan los dispositivos móviles a los infantes",
+      "clase": "Los móviles en los infantes",
       "fecha": "3 de marzo de 2024",
-      "description": "Nuestros ponentes especialistas en el tema nos presentaran una guía para padres y educadores",
+      "description": "Guía para padres y educadores",
       "image": "image/imagenTarjeta7.jpg",
       "categoria": "educando"
     }

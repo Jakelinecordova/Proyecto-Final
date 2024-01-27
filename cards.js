@@ -19,9 +19,9 @@ fetch("http://localhost:3000/eventos")
             card.innerHTML = `
             <img src="${evento.image}" alt="">
             <h3>${evento.clase} </h3>
-            <p> ${evento.description} </p>
-            <p> ${evento.fecha} </p>
-            <button href=""> Descubre más... </button>
+            <p class="fecha"> ${evento.fecha} </p>
+            <p class = "descripcion"> ${evento.description} </p>
+            <button> Descubre más... </button>
         `;
             eventosContainer.appendChild(card);
         });
@@ -44,11 +44,11 @@ searchImput.addEventListener('input', function () {
         card.classList.add('cards');
 
         card.innerHTML = `
-    <img src="${evento.image}" alt="">
-    <h3>${evento.clase} </h3>
-    <p> ${evento.description} </p>
-    <p> ${evento.fecha} </p>
-    <a href=""> Descubre más... </a>
+        <img src="${evento.image}" alt="">
+        <h3>${evento.clase} </h3>
+        <p class ="fecha"> ${evento.fecha} </p>
+        <p class = "descripcion"> ${evento.description} </p>
+        <button> Descubre más... </button>
 `;
         eventosContainer.appendChild(card);
     });
