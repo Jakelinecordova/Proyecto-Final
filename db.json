@@ -6,7 +6,7 @@
       "fecha": "17 de febrero de 2024",
       "description": "Comunicación, el juego y la creación",
       "image": "image/imagenTarjeta1.jpg",
-      "categoria": "taller"
+      "categoria": "Taller"
       
     },
     {
@@ -15,7 +15,7 @@
       "fecha": "Agosto 2024",
       "description": "Súmate a nuestras aventuras",
       "image": "image/imagenTarjeta2.jpg",
-      "categoria":"escapadas"
+      "categoria":"Escapadas"
     },
     {
       "id": "3",
@@ -23,7 +23,7 @@
       "fecha": "17 de febrero de 2024",
       "description": "Te decimos como tranquilizar la situación",
       "image": "image/imagenTarjeta3.jpg",
-      "categoria":"educando"
+      "categoria":"Educando"
     },
     {
       "id": "4",
@@ -39,7 +39,7 @@
       "fecha": "17 de febrero de 2024",
       "description": "Cuentos para visibilizar la diversidad familiar desde la infancia",
       "image": "image/imagenTarjeta5.jpg",
-      "categoria": "cuentos"
+      "categoria": "Cuentos"
     },
     {
       "id": "6",
@@ -47,7 +47,7 @@
       "fecha": "3 de marzo de 2024",
       "description": "Conectar con la naturaleza nos fortalece y nos hace más feliz",
       "image": "image/imagenTarjeta6.jpg",
-      "categoria": "escapadas"
+      "categoria": "Escapadas"
     },
     {
       "id": "7",
@@ -55,7 +55,7 @@
       "fecha": "3 de marzo de 2024",
       "description": "Guía para padres y educadores",
       "image": "image/imagenTarjeta7.jpg",
-      "categoria": "educando"
+      "categoria": "Educando"
     }
   ]
 }

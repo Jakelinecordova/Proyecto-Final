@@ -9,7 +9,7 @@ fetch("http://localhost:3000/eventos")
     .then(dataResponse => {
         data = dataResponse; // asigna el resultado de la llamada a fetch a la variable data
 
-        // Acceder al elemento con id ""eventos-container" y modificar su contenido
+        // Acceder al elemento con id "eventos-container" y modificar su contenido
         eventosContainer = document.getElementById("eventos-container");
 
         data.forEach(evento => {
@@ -20,24 +20,35 @@ fetch("http://localhost:3000/eventos")
             <img src="${evento.image}" alt="">
             <h3>${evento.clase} </h3>
             <p class="fecha"> ${evento.fecha} </p>
-            <p class = "descripcion"> ${evento.description} </p>
+            <p class="descripcion"> ${evento.description} </p>
             <button> Descubre más... </button>
         `;
             eventosContainer.appendChild(card);
+        });
+
+        // Crear una lista de categorías sin repeticiones
+        const categoriasUnicas = Array.from(new Set(data.map(evento => evento.categoria)));
+        listaCategoria = document.getElementById("listaCategoria");
+
+        categoriasUnicas.forEach(categoria => {
+            const elementoCategoria = document.createElement('li');
+            elementoCategoria.innerHTML = `
+               <a href="">${categoria}</a>
+            `;
+            listaCategoria.appendChild(elementoCategoria);
         });
     })
     .catch(error => console.error('Error al obtener los datos', error));
 
 // Realizar el filtro por categoría
-const searchImput = document.getElementById('searchImput');
-searchImput.addEventListener('input', function () {
-    const serachTerm = this.value.toLowerCase();
+const searchInput = document.getElementById('searchInput');
+searchInput.addEventListener('input', function () {
+    const searchTerm = this.value.toLowerCase();
 
     const eventosFiltrados = data.filter(evento => {
-        return evento.clase.toLowerCase().includes(serachTerm);
-    }
+        return evento.clase.toLowerCase().includes(searchTerm);
+    });
 
-    );
     eventosContainer.innerHTML = '';
     eventosFiltrados.forEach(evento => {
         const card = document.createElement('div');
@@ -46,32 +57,10 @@ searchImput.addEventListener('input', function () {
         card.innerHTML = `
         <img src="${evento.image}" alt="">
         <h3>${evento.clase} </h3>
-        <p class ="fecha"> ${evento.fecha} </p>
-        <p class = "descripcion"> ${evento.description} </p>
+        <p class="fecha"> ${evento.fecha} </p>
+        <p class="descripcion"> ${evento.description} </p>
         <button> Descubre más... </button>
-`;
+        `;
         eventosContainer.appendChild(card);
     });
-
-})
-
-
-//lista de categorias
-
-fetch("http://localhost:3000/eventos")
-    .then(response => response.json())
-    .then(dataResponse => {
-        data = dataResponse; // asigna el resultado de la llamada a fetch a la variable data
-
-        // Acceder al elemento con id ""eventos-container" y modificar su contenido
-        listaCategoria = document.getElementById("listaCategoria");
-
-        data.forEach(evento => {
-            const categoria = document.createElement('li');
-            categoria.innerHTML = `
-           <a href="">${evento.categoria} </a>
-        `;
-            listaCategoria.appendChild(categoria);
-        });
-    })
-    .catch(error => console.error('Error al obtener los datos', error));
+});
